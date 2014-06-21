@@ -6,7 +6,10 @@
     "AngularUI"
   ],
   "description": "AngularJS ui-select",
-  "main": ["dist/select.js", "dist/select.css"],
+  "main": [
+    "dist/select.js",
+    "dist/select.css"
+  ],
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -16,11 +19,14 @@
     "test"
   ],
   "dependencies": {
-    "angular": "~1.2"
+    "angular": "1.2.15"
   },
   "devDependencies": {
     "jquery": "~1.11",
     "angular-sanitize": "~1.2",
     "angular-mocks": "~1.2"
+  },
+  "resolutions": {
+    "angular": "1.2.15"
   }
 }
